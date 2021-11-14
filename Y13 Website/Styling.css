@@ -1,0 +1,89 @@
+
+body {
+    margin: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("Background.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-size: 100px;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  text-shadow: 5px 5px gold;
+  text-align: center;
+  font-weight: 00;
+}
+
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-size: 30px;
+  color: white;
+  text-shadow: 3px 3px black;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-weight: 00;
+  font-style: italic;
+}
+
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  position: relative; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  display: flex;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-color: black;
+  background-color: #444c4c ;
+  border-width: thin;
+}
+
+/* Navbar links */
+#navbar a {
+color: white;
+  text-align: center;
+  padding: 0px 40px;
+  text-decoration: none;
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  text-shadow: 4px 4px gold;
+}
+
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
